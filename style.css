@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#gifContainer.hidden {
+    display: none;
+}
+
+#gifContainer img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#gifContainer p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
